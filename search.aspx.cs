@@ -59,14 +59,6 @@ public partial class search : System.Web.UI.Page
                 "GROUP BY a.LastName, a.EmployeeID";
         }
         
-        
-        
-        
-        //時 SELECT Sum(a.Freight) AS 總計 FROM Orders AS a WHERE (((a.OrderDate) Between #7/1/1996# And #7/31/1996#))
-        /*AccessDataSource1.SelectCommand = 
-            "SELECT Sum(a.Freight) AS 總計 " + 
-            "FROM Orders AS a " +
-            "WHERE (((a.OrderDate) Between #" + date1 + "# And #" + date2 + "#));";*/
        
 
 
